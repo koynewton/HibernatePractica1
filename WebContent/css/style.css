@@ -1,0 +1,38 @@
+body
+{
+	color: #ff8040;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	font-size: 12pt;
+	margin-top: 20px;
+	content-align: center;
+	text-align: center;
+}
+
+h2
+{
+	color: navy;
+}
+
+form
+{
+	width:70%;
+	margin: 0 auto;
+	
+}
+
+
+.btn.btn-outline-primary
+{
+	color: #ff8040;
+	outline-color: #ff8040;
+	border-color: #ff8040;
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus {
+  background-color: #ff8040 !important;
+  outline-color: #ff8040;
+  border-color: #ff8040;
+  color: white;
+}
+
