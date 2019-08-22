@@ -3,15 +3,17 @@ package com.hibernatepractica1.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Tienda")
+@Table(name="productos")
 
 public class Producto {
-	@Id 
-	@GeneratedValue
+	@Id
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
 	@Column
 	private int idProducto;
 	@Column
